@@ -1,7 +1,7 @@
 password = 'a123456'
 x = 3
 
-while True:
+while x > 0:
 	pw = input('please input password: ')
 	x = x - 1
 	if pw == password:
@@ -9,9 +9,3 @@ while True:
 		break
 	else:
 		print('密碼錯誤 還有', x, '次機會')
-		if x == 0:
-			break
-
-
-
-
